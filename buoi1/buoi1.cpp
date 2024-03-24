@@ -53,6 +53,7 @@ int main()
   /**
    * CẤU TRÚC ĐIỀU KIỆN IF ELSE
    * Cú pháp: if (condition) { // code }
+   * Cách dùng: thực thi code trong if khi điều kiện đúng, ngược lại thì thực thi code trong else
    */
   if (a > b)
   {
@@ -69,6 +70,7 @@ int main()
   /**
    * CẤU TRÚC ĐIỀU KIỆN SWITCH CASE
    * Cú pháp: switch (variable) { case value: // code break; default: // code }
+   * Cách dùng: so sánh giá trị của biến với các case, nếu trùng thì thực thi code trong case đó
    */
 
   // if (a==1)
@@ -87,6 +89,7 @@ int main()
   /**
    * VÒNG LẶP FOR
    * Cú pháp: for (int i = 0; i < 10; i++) { // code }
+   * Cách dùng: thực thi code trong vòng lặp khi điều kiện đúng
    */
   for (int i = 0; i < 10; i++)
   {
@@ -96,6 +99,7 @@ int main()
   /**
    * VÒNG LẶP WHILE
    * Cú pháp: while (condition) { // code }
+   * Cách dùng: thực thi code trong vòng lặp khi điều kiện đúng
    */
   int i = 0;
   while (i < 10)
@@ -107,6 +111,7 @@ int main()
   /**
    * VÒNG LẶP DO WHILE
    * Cú pháp: do { // code } while (condition);
+   * Cách dùng: thực thi code trong vòng lặp ít nhất 1 lần, sau đó kiểm tra điều kiện
    */
   i = 0;
   do
