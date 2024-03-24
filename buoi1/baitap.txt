@@ -1,0 +1,49 @@
+1. Viết chương trình C++ xác định loại tam giác dựa vào độ dài 3 cạnh a, b, c.
+Đầu ra: In ra màn hình loại tam giác tương ứng: Tam giác đều, tam giác cân, tam giác vuông, tam giác thường, không phải tam giác.
+
+2. Viết chương trình C++ giải phương trình bậc 2 ax^2 + bx + c = 0.
+Cách giải:
+- Tính delta = b^2 - 4ac.
+- Nếu delta < 0 thì phương trình vô nghiệm.
+- Nếu delta = 0 thì phương trình có nghiệm kép x1 = x2 = -b / 2a.
+- Nếu delta > 0 thì phương trình có 2 nghiệm phân biệt x1 = (-b + sqrt(delta)) / 2a, x2 = (-b - sqrt(delta)) / 2a.
+Đầu vào: 3 số thực a, b, c (a, b, c ≤ 10^9).
+Đầu ra: In ra màn hình nghiệm của phương trình theo dạng: x1 = ..., x2 = ... hoặc NO nếu vô nghiệm.
+
+3. Viết chương trình C++ in ra số ngày trong tháng.
+Đầu vào: 2 số nguyên dương m, y (1 ≤ m ≤ 12, 1 ≤ y ≤ 10^9).
+Đầu ra: In ra màn hình số ngày trong tháng m của năm y.
+Ví dụ: 2 2020 -> 29, 2 2021 -> 28, 4 2020 -> 30, 5 2020 -> 31.
+những tháng 1, 3, 5, 7, 8, 10, 12 có 31 ngày, tháng 4, 6, 9, 11 có 30 ngày, tháng 2 có 28 hoặc 29 ngày.
+
+4. Viết chương trình C++ kiểm tra một chuỗi nhập vào có phải là 1 số nguyên không.
+Đầu vào: 1 chuỗi s (1 ≤ |s| ≤ 10^5).
+Đầu ra: In ra màn hình YES nếu s là số nguyên, ngược lại in ra NO.
+
+5. Viết chương trình C++ kiểm tra một số nguyên nhập vào có phải là số nguyên tố không.
+Đầu vào: 1 số nguyên dương n (1 ≤ n ≤ 10^9).
+Đầu ra: In ra màn hình YES nếu n là số nguyên tố, ngược lại in ra NO.
+
+6. Viết chương trình C++ kiểm tra một số nguyên nhập vào có phải là số hoàn hảo không.
+Số hoàn hảo là số mà tổng các ước số của nó (không kể nó) bằng chính nó.
+Ví dụ: 6 có các ước số là 1, 2, 3, tổng là 6.
+Đầu vào: 1 số nguyên dương n (1 ≤ n ≤ 10^9).
+Đầu ra: In ra màn hình YES nếu n là số hoàn hảo, ngược lại in ra NO.
+
+7. Viết chương trình C++ kiểm tra một số nguyên nhập vào có phải là số chính phương không.
+Số chính phương là số mà căn bậc 2 của nó là số nguyên.
+Ví dụ: 4, 9, 16, 25, 36, ...
+Đầu vào: 1 số nguyên dương n (1 ≤ n ≤ 10^9).
+Đầu ra: In ra màn hình YES nếu n là số chính phương, ngược lại in ra NO.
+
+8. Viết chương trình C++ kiểm tra một số nguyên nhập vào có phải là số Fibonacci không.
+Dãy Fibonacci là dãy số bắt đầu bằng 0 và 1, các số sau đó được tạo ra bằng cách cộng 2 số trước đó.
+Ví dụ: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+Đầu vào: 1 số nguyên dương n (1 ≤ n ≤ 10^9).
+Đầu ra: In ra màn hình YES nếu n là số Fibonacci, ngược lại in ra NO.
+
+9. Viết chương trình C++ kiểm tra một chuỗi nhập vào có phải là chuỗi Palindrome không.
+Chuỗi Palindrome là chuỗi đọc từ trái sang phải và từ phải sang trái đều giống nhau.
+Ví dụ: "abba", "racecar", "madam", ...
+Đầu vào: 1 chuỗi s (1 ≤ |s| ≤ 10^5).
+Đầu ra: In ra màn hình YES nếu s là chuỗi Palindrome, ngược lại in ra NO.
